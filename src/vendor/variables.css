@@ -1,0 +1,21 @@
+:root {
+  /*цвета для темы*/
+  --neon: #000028;
+  /*цвета для текста*/
+  --light-pink-color: #f1b2ce;
+  --pink-color: #ff0070;
+  --pink-color-with-opacity: #ff007066;
+  --dark-blue-color: var(--neon);
+  --dark-pink: #db00ff;
+  --transparent-color: #0000;
+  /*шрифты*/
+  --font-ibm: 'IBM Plex Mono';
+  --main-fw: 400;
+  --accent-fw: 700;
+  --main-size: 18px;
+  --bg-color: var(--neon, #000);
+  --text-color: var(--light-pink-color, #fff);
+  --accent-color: var(--pink-color, #f00);
+  --accent-color-with-opacity: var(--pink-color-with-opacity, #f006);
+  --shadow-color: var(--dark-pink, #700);
+}

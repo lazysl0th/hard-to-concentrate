@@ -1,0 +1,14 @@
+.header--subtitle {
+  padding-block: 55px 66px;
+  margin: 0;
+  font-weight: var(--accent-fw, 700);
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  background-clip: content-box;
+  align-self: flex-end;
+  inline-size: min(100%, max(50%, 355px));
+}
+
+.page-light .header--subtitle {
+  color: var(--text-color);
+}

@@ -1,0 +1,28 @@
+:root.page-light {
+  /*цвета для темы*/
+  --light: #fff1f7;
+  /*цвета для текста*/
+  --gray-color: #353430;
+  --middle-pink: #ff8dcb;
+  --gray-color-with-opacity: #35343066;
+  /*шрифты*/
+  --font-ibm: 'IBM Plex Mono';
+  --bg-color: var(--light, #fff);
+  --text-color: var(--gray-color, #000);
+  --text-color-with-opacity: var(--gray-color-with-opacity, #0006);
+  --accent-color: var(--middle-pink, #f00);
+  --shadow-color: var(--pink-color, #700);
+  --bg-image: url(../../../images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --bg-color: var(--light, #fff);
+    --text-color: var(--gray-color, #000);
+    --text-color-with-opacity: var(--gray-color-with-opacity, #0006);
+    --accent-color: var(--middle-pink, #f00);
+    --shadow-color: var(--pink-color, #700);
+    --bg-image: url(../../../images/cover-image-light.png);
+  }
+}

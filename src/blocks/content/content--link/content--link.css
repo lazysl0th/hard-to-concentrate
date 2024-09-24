@@ -1,0 +1,14 @@
+.content--link {
+  color: inherit;
+  text-shadow: 2px 2px var(--accent-color);
+  text-decoration: none;
+}
+
+.content--link:focus-visible {
+  outline: 1px solid var(--text-color);
+}
+
+.content--link:hover {
+  border-block-end: 1px solid var(--text-color);
+  cursor: pointer;
+}

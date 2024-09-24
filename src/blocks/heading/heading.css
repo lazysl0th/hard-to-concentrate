@@ -1,0 +1,9 @@
+.heading {
+  font-weight: var(--accent-fw, 700);
+  color: var(--accent-color);
+}
+
+.page-light .heading {
+  font-weight: var(--accent-fw, 700);
+  color: var(--text-color);
+}

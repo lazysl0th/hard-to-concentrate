@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-block-start: 10px;
+  position: relative;
+}
+
+.header::before {
+  display: inline-block;
+  position: absolute;
+  margin-block-start: 10px;
+  margin-inline-end: 10px;
+  padding: 0;
+  content: '';
+  inline-size: 25px;
+  block-size: 25px;
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  border-block-start: 1px solid var(--accent-color);
+  border-inline-end: 1px solid var(--accent-color);
+}
+
+.header::after {
+  display: inline-block;
+  position: absolute;
+  margin-inline-start: 10px;
+  padding: 0;
+  content: '';
+  inline-size: 25px;
+  block-size: 25px;
+  inset-block-end: 0;
+  inset-inline-start: 0;
+  border-block-end: 1px solid var(--accent-color);
+  border-inline-start: 1px solid var(--accent-color);
+}
+
+.page-light .header::before,
+.page-light .header::after {
+  border-color: var(--text-color);
+}
+
+@container page (inline-size > 425px) {
+
+  .header {
+    padding-block-start: 20px;
+  }
+
+  .header::after,
+  .header::before {
+    margin: 20px 20px 0;
+  }
+}

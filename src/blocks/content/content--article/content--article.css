@@ -1,0 +1,26 @@
+.content--article {
+  padding-block-start: 50px;
+  gap: 20px;
+  display: grid;
+  inline-size: fit-content;
+  grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+}
+
+.content--article:first-of-type {
+  padding-block-start: 40px;
+}
+
+.content--article:last-of-type {
+  gap: 10px;
+}
+
+@container (inline-size > 481px) {
+
+  .content--article {
+    grid-template-columns: 236px 2fr;
+  }
+
+  .content--article:last-of-type {
+    grid-template-columns: 1fr;
+  }
+}

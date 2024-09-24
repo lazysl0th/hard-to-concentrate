@@ -1,0 +1,35 @@
+.header--theme-button {
+  margin: 0;
+  padding-inline: 13px;
+  padding-block: 0;
+  line-height: 24px;
+  background-color: var(--transparent-color);
+  font-size: inherit;
+  color: var(--accent-color);
+  text-transform: lowercase;
+  border: none;
+}
+
+.header--theme-button:focus-visible {
+  outline: none;
+  border-block-end: 1px solid var(--accent-color);
+}
+
+.header--theme-button:hover {
+  border-color: var(--accent-color-with-opacity);
+  cursor: pointer;
+}
+
+.page-light .header--theme-button {
+  color: var(--text-color);
+}
+
+.page-light .header--theme-button:focus-visible {
+  outline: none;
+  border-block-end: 1px solid var(--text-color);
+}
+
+.page-light .header--theme-button:hover {
+  border-color: var(--text-color-with-opacity);
+  cursor: pointer;
+}

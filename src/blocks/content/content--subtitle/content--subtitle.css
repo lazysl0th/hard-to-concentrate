@@ -1,0 +1,15 @@
+.content--subtitle {
+  margin: 0;
+  padding-block-end: 10px;
+  line-height: 24px;
+  font-size: var(--main-size);
+  background-clip: content-box;
+}
+
+.content--list > .content--subtitle {
+  padding-block-end: 20px;
+}
+
+.content--article:last-of-type .content--subtitle {
+  padding: 0;
+}

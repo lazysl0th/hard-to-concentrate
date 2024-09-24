@@ -1,0 +1,14 @@
+.content-section {
+  inline-size: clamp(375px, 100%, 1024px);
+  padding-inline: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  container-type: content-section / inline-size;
+}
+
+@container (inline-size > 425px) {
+
+  .content-section {
+    padding-inline: 20px;
+  }
+}

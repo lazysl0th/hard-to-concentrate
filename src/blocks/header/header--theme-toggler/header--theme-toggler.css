@@ -1,0 +1,67 @@
+.header--theme-toggler {
+  align-items: end;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  padding-block: 65px;
+}
+
+.header--theme-toggler::before {
+  position: absolute;
+  display: inline-block;
+  margin: 8px;
+  padding: 0;
+  content: '';
+  inline-size: 9px;
+  block-size: 9px;
+  inset-block-start: 11px;
+  inset-inline-end: 11px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  vertical-align: bottom;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+.header--theme-toggler::after {
+  text-transform: uppercase;
+  color: var(--accent-color);
+  position: absolute;
+  display: inline-block;
+  padding-inline-end: 25px;
+  content: 'rec';
+  inset-block-start: 11px;
+  inset-inline-end: 11px;
+}
+
+.page-light .header--theme-toggler::before,
+.page-light .header--theme-toggler::after {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+@container page (inline-size > 425px) {
+
+  .header--theme-toggler {
+    padding-block: 173px;
+  }
+
+  .header--theme-toggler::after,
+  .header--theme-toggler::before {
+    inset-block-start: 21px;
+    inset-inline-end: 21px;
+  }
+}
+
+@container page (inline-size > 919px) {
+
+  .header--theme-toggler {
+    padding-block: 0 273px;
+    flex-flow: row;
+    align-self: center;
+  }
+}

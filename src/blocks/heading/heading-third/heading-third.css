@@ -1,0 +1,6 @@
+.heading-third {
+  font-weight: var(--main-fw);
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  background-clip: content-box;
+}

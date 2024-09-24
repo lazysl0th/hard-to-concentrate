@@ -1,0 +1,7 @@
+.header--theme-button-is-active {
+  border: 1px solid var(--accent-color);
+}
+
+.page-light .header--theme-button-is-active {
+  border-color: var(--text-color);
+}

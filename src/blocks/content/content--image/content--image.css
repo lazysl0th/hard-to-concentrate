@@ -1,0 +1,23 @@
+.content--image {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+@container (inline-size > 469px) {
+
+  .content--image {
+    object-fit: cover;
+  }
+
+  .content--image:first-child,
+  .content--image:last-child {
+    grid-column: span 2;
+  }
+
+  .content--image:nth-child(2),
+  .content--image:nth-child(3) {
+    grid-row: span 2;
+  }
+}

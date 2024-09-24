@@ -1,0 +1,13 @@
+.header--title {
+  margin: 0;
+  padding: 0;
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+  line-height: 96px;
+  color: var(--shadow-color);
+  text-shadow: 4px 4px var(--accent-color);
+}
+
+.page-light .header--title {
+  color: var(--accent-color);
+  text-shadow: 4px 4px var(--shadow-color);
+}

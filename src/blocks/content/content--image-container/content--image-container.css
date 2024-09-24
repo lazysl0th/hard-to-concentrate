@@ -1,0 +1,16 @@
+.content--image-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-rows: repeat(3, auto);
+  grid-auto-rows: auto;
+}
+
+@container (inline-size > 469px) {
+
+  .content--image-container {
+    grid-template-columns: repeat(3, minmax(140px, 1fr));
+    grid-template-rows: repeat(3, minmax(140px, auto));
+    gap: 20px;
+  }
+}
