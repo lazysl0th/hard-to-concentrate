@@ -45,7 +45,6 @@
 }
 
 @container page (inline-size > 425px) {
-
   .header--theme-toggler {
     padding-block: 173px;
   }
@@ -58,7 +57,6 @@
 }
 
 @container page (inline-size > 919px) {
-
   .header--theme-toggler {
     padding-block: 0 273px;
     flex-flow: row;

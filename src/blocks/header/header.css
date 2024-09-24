@@ -41,7 +41,6 @@
 }
 
 @container page (inline-size > 425px) {
-
   .header {
     padding-block-start: 20px;
   }

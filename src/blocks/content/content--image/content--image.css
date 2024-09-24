@@ -6,7 +6,6 @@
 }
 
 @container (inline-size > 469px) {
-
   .content--image {
     object-fit: cover;
   }

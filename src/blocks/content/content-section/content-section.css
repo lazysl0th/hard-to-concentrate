@@ -7,7 +7,6 @@
 }
 
 @container (inline-size > 425px) {
-
   .content-section {
     padding-inline: 20px;
   }

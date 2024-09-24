@@ -13,7 +13,6 @@
 }
 
 @container (inline-size > 491px) {
-
   .content--list-item:first-of-type {
     padding-block-start: 0;
   }

@@ -7,5 +7,3 @@
 Основные команды описаны в package.json
 
 Используемые технологии HTML5 и CSS3.
-
-Ссылка на проект: https://lazysl0th.github.io/hard-to-concantrate/

@@ -16,7 +16,6 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     --bg-color: var(--light, #fff);
     --text-color: var(--gray-color, #000);

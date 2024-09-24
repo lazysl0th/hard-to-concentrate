@@ -15,7 +15,6 @@
 }
 
 @container (inline-size > 481px) {
-
   .content--article {
     grid-template-columns: 236px 2fr;
   }
